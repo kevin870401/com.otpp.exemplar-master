@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" metadata-complete="false"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+        http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+  <display-name>Exemplar</display-name>
+
+  <env-entry>
+    <description>The URL to the Crypto Web Service</description>
+    <env-entry-name>ws.crypto.url</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>override ws.crypto.url</env-entry-value>
+  </env-entry>
+
+  <env-entry>
+    <description>The user name used to communicate with the Crypto Web Service</description>
+    <env-entry-name>ws.crypto.username</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>override ws.crypto.username</env-entry-value>
+  </env-entry>
+
+  <env-entry>
+    <description>The URL to Organization Web Service</description>
+    <env-entry-name>ws.org.url</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>override ws.org.url</env-entry-value>
+  </env-entry>
+
+  <env-entry>
+    <description>The URL to Fact Finder Web Service</description>
+    <env-entry-name>ws.factfinder.url</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>override ws.factfinder.url</env-entry-value>
+  </env-entry>
+
+</web-app>

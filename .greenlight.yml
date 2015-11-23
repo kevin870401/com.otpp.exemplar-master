@@ -1,0 +1,5 @@
+# Rebase branches after a push to master
+rebase_branches: true
+# Bamboo build key
+# Default: **Key specified in GitHub repo's Bamboo service hook**
+build_key: LEG-EWSB 
